@@ -7,7 +7,7 @@
 # 忽略特定文件
 /.idea/
 /noneed/
-/Hello/src/
+/Hello/
 /*.iml
 /out/
 
