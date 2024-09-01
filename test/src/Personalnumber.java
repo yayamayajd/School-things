@@ -19,11 +19,19 @@ public class Personalnumber {
         String lastNumber = personalNumber.substring(11,12);
         //change the type to int with the Integer.parseInt(str) method
         int genderNumber = Integer.parseInt(lastNumber);
-        if (genderNumber % 2 == 0){
+
+        //the if-else solution
+        /*if (genderNumber % 2 == 0){
             gender = "female";
         }else{
             gender = "male";
         }
+        */
+        //use the Ternary Operator instead if-else, it work the same way
+        //format: conditional expression ? val1:val2
+        //calculate the conditional expression, if result is true then return val1, verse versa
+        gender = genderNumber % 2 == 0 ? "female" : "male";
+
 
         //calculate age
         //take the birthday apart from personal number, use the str.substring(index) method
