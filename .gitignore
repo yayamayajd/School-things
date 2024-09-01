@@ -5,7 +5,7 @@
 /temp/
 
 # 忽略特定文件
-/.idea/
+/test/.idea/
 /noneed/
 /Hello/
 /*.iml
