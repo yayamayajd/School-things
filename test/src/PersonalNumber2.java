@@ -1,6 +1,4 @@
 
-import java.util.Scanner;
-
 public class PersonalNumber2 {
     public static void main(String[] args) {
         //får ssn som den första av args index, så det kan köras när man kör programet på commad line
